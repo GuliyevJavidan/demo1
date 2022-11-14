@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form>
+        <input type="number">
+        <input type="name">
+        <input type="surname">
+        <input onclick="myCreateFunction()" type="submit" value="Add list item" >
+    </form>
+
+    <table id="time">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Surname</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Akif</td>
+                <td>Quluzade</td>
+            </tr>
+
+            <tr>
+                <td>2</td>
+                <td>Ilkin</td>
+                <td>Babayev</td>
+            </tr>
+
+            <tr>
+                <td>3</td>
+                <td>Arif</td>
+                <td>Mustafayev</td>
+            </tr>
+
+            <tr>
+                <td>4</td>
+                <td>Nazim</td>
+                <td>Ehmedov</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- <script>
+        function myCreateFunction() {
+          var table = document.getElementById("time");
+          var row = table.insertRow(0);
+          var cell1 = row.insertCell(0);
+          var cell2 = row.insertCell(1);
+          cell1.innerHTML = "NEW CELL1";
+          cell2.innerHTML = "NEW CELL2";
+        }
+        
+        function myDeleteFunction() {
+          document.getElementById("myTable").deleteRow(0);
+        }
+        </script> -->
+</body>
+
+</html>
